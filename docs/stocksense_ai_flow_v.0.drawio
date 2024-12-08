@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Page-1" id="i6nwWCif_jXPTf1KdA4u">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kW4eJ37Mwe4rq1AWV9Cz-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="790" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="vbpQFB16iZsiKfWlXTLR-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vbpQFB16iZsiKfWlXTLR-1" target="vbpQFB16iZsiKfWlXTLR-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbpQFB16iZsiKfWlXTLR-1" value="DATA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="295" y="230" width="179" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vbpQFB16iZsiKfWlXTLR-2" value="Fundamental analysis data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="349" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vbpQFB16iZsiKfWlXTLR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vbpQFB16iZsiKfWlXTLR-3" target="vbpQFB16iZsiKfWlXTLR-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="264" y="185" />
+              <mxPoint x="350" y="185" />
+              <mxPoint x="350" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vbpQFB16iZsiKfWlXTLR-3" value="Technical Indicator analysis data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="204" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vbpQFB16iZsiKfWlXTLR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="vbpQFB16iZsiKfWlXTLR-4" target="vbpQFB16iZsiKfWlXTLR-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="104" y="185" />
+              <mxPoint x="350" y="185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vbpQFB16iZsiKfWlXTLR-4" value="Historical Stock data minimum 10 yrs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="44" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vbpQFB16iZsiKfWlXTLR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vbpQFB16iZsiKfWlXTLR-5" target="vbpQFB16iZsiKfWlXTLR-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbpQFB16iZsiKfWlXTLR-5" value="Financial data like balance sheet, cash in cash out, profit and loss" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="504" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vbpQFB16iZsiKfWlXTLR-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vbpQFB16iZsiKfWlXTLR-6" target="vbpQFB16iZsiKfWlXTLR-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbpQFB16iZsiKfWlXTLR-6" value="Financial News(Economics times, Business news etc)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="664" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vbpQFB16iZsiKfWlXTLR-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.633;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vbpQFB16iZsiKfWlXTLR-2" target="vbpQFB16iZsiKfWlXTLR-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbpQFB16iZsiKfWlXTLR-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vbpQFB16iZsiKfWlXTLR-26" target="vbpQFB16iZsiKfWlXTLR-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbpQFB16iZsiKfWlXTLR-26" value="Data preprocessor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="292" y="329" width="179" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vbpQFB16iZsiKfWlXTLR-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vbpQFB16iZsiKfWlXTLR-27" target="vbpQFB16iZsiKfWlXTLR-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbpQFB16iZsiKfWlXTLR-27" value="Data preprocessor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="292" y="409" width="179" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vbpQFB16iZsiKfWlXTLR-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vbpQFB16iZsiKfWlXTLR-28" target="vbpQFB16iZsiKfWlXTLR-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbpQFB16iZsiKfWlXTLR-28" value="Data splitting based on validation and trainer data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="292" y="494" width="179" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vbpQFB16iZsiKfWlXTLR-29" value="Prediction the future value" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="292" y="649" width="179" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vbpQFB16iZsiKfWlXTLR-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vbpQFB16iZsiKfWlXTLR-30" target="vbpQFB16iZsiKfWlXTLR-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbpQFB16iZsiKfWlXTLR-30" value="LLM Trained Model/ML Trained model" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="292" y="569" width="179" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
