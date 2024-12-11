@@ -6,13 +6,13 @@ def log_message(level,message):
 
     if level=='debug':
         logging.debug(message)
-    if level=='info':
+    elif level=='info':
         logging.info(message)
-    if level=='warning':
+    elif level=='warning':
         logging.warning(message)
-    if level=='error':
+    elif level=='error':
         logging.error(message)
-    if level=='critical':
+    elif level=='critical':
         logging.critical(message)
     else:
         raise ValueError(f"Invalid logging level: {level}")

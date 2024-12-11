@@ -8,12 +8,12 @@ class StockInsertionRepository:
         self.request=request
         self.db_connection=get_db_connection()
 
-    def insert(self,stock_data):
+    def insert(self,company_data,fundamental_analysis_data,stock_data):
         log_message("info","Insertion repository process")
         if self.db_connection:
             try:
                 cursor=self.db_connection.cursor()
-                self.insert_sql(cursor,"company_data","fundamental_analysis_data","stock_data")
+                self.insert_sql(cursor,company_data,fundamental_analysis_data,stock_data)
                 self.db_connection.commit()
             except Exception as e:
                 log_message("error", f"Insertion Failed error : {str(e)}")
@@ -22,15 +22,7 @@ class StockInsertionRepository:
         else:
             raise ValueError("Failed to connect to database while calling the insert")
 
-    def insert_sql(self,cursor,company_data,fundamental_analysis_data,stock_data):
-        # Insert into COMPANY_INFO
-        execute_values(
-            cursor,
-            "INSERT INTO COMPANY_INFO (company_name, company_market_id) VALUES %s",
-            [(c["company_name"], c["company_market_id"]) for c in company_data]
-        )
-
-        # Insert into COMPANY_FUNDAMENTAL_ANALYSIS
+    def insert_sql(self, cursor, company_data, fundamental_analysis_data, stock_data):
         execute_values(
             cursor,
             """
@@ -76,4 +68,24 @@ class StockInsertionRepository:
                 for s in stock_data
             ],
         )
+    def insert_and_get_company_id(self, company_data):
+        with self.db_connection.cursor() as cursor:
+            cursor.execute(
+                """
+                SELECT company_id FROM public.COMPANY_INFO WHERE company_market_id = %s
+                """,
+                (company_data["company_market_id"],)
+            )
+            result = cursor.fetchone()
+            if result:
+                return result[0]
+            cursor.execute(
+                """
+                INSERT INTO COMPANY_INFO (company_name, company_market_id)
+                VALUES (%s, %s)
+                RETURNING company_id
+                """,
+                (company_data["company_name"], company_data["company_market_id"])
+            )
+            return cursor.fetchone()[0]
 
