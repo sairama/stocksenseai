@@ -7,4 +7,4 @@ requests
 yfinance
 numpy
 pandas
-
+gluonts[mxnet]
